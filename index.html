@@ -1279,6 +1279,26 @@
     }
 
     @media(max-width:640px) {
+      #hero {
+        height: auto;
+        min-height: 100svh;
+        overflow: visible
+      }
+
+      .hero-inner {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        min-height: 100svh;
+        padding-bottom: 56px
+      }
+
+      .scroll-cue {
+        display: none
+      }
+
       .hero-photo {
         justify-content: center;
         align-items: flex-end;
@@ -1398,8 +1418,7 @@
       <div class="hero-scrim"></div>
       <div class="hero-inner">
         <div class="hero-top">
-          <div class="hero-eyebrow reveal in">
-            Full-Stack&nbsp;Engineering&nbsp;·&nbsp;AI&nbsp;Integration&nbsp;·&nbsp;Developer&nbsp;Tools</div>
+          <div class="hero-eyebrow reveal in">Full&#8209;Stack Engineering · AI Integration · Developer Tools</div>
         </div>
         <div class="hero-bottom">
           <div class="hero-name">
